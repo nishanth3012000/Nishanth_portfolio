@@ -3,6 +3,7 @@
 
 :root{
     --primary-color: #84cc16;
+    --off-white: #f1f5f9;
     --dark-grey: #64748b;
 }
 body {
@@ -81,8 +82,19 @@ hr {
     .photo .photo-heading{
         padding-top: 1rem;
         color:var(--dark-grey);
+        text-align: center;
     }
 
     .photo .photo-heading .heading-inverted{
         color: var(--primary-color);
+    }
+
+    .section{
+        padding: 2rem;
+    }
+    .section h1{
+        text-align: center;
+    }
+    .ow{
+        background-color: var(--off-white);
     }
