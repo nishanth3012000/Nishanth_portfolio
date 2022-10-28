@@ -80,7 +80,7 @@ hr {
     font-size: larger;
 }
 
-.navigation.link-active {
+.navigation .link-active {
     font-weight: bold;
 }
 
@@ -132,7 +132,7 @@ hr {
     padding-inline-start: 0px;
 }
 .list-item-inline .link .image{
-    max-width: 30px;
+    max-width: 20px;
     display: inline-block;
     margin: auto;
 }
