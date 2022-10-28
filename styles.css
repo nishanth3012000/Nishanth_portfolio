@@ -33,6 +33,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    cursor: pointer;
 }
 
 .link-primary {
@@ -127,4 +128,7 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+.list-item-inline.link.image{
+    padding: 1rem;
 }
