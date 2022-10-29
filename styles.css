@@ -106,7 +106,10 @@ hr {
 
 .section {
     padding: 2rem;
+    background-color: none;
 }
+
+
 
 .section h1 {
     text-align: center;
@@ -125,6 +128,7 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    
 }
 
 .footer.link {
