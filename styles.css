@@ -62,7 +62,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    
+
 }
 
 .navigation .nav-brand {
@@ -115,6 +115,9 @@ hr {
 .ow {
     background-color: var(--off-white);
 }
+ .ow .container-center.heading-inverted{
+    color: var(--primary-color);
+}
 
 .footer {
     background-color: var(--primary-color);
@@ -131,7 +134,8 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
-.list-item-inline .link .image{
+
+.list-item-inline .link .image {
     max-width: 20px;
     display: inline-block;
     margin: auto;
