@@ -37,18 +37,24 @@ hr {
 }
 
 a.link.link-secondary.sl {
-    margin-left: 5rem;
+    margin-left: 1rem;
+    padding-right: 2rem;
+    font-size: larger;
+    padding-left: 2rem;
 }
 
 a.link.link-primary.pl {
-    margin-left: 5rem;
+    margin-left: 1rem;
+    padding-right: 2rem;
+    font-size: larger;
+    padding-left: 2rem;
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
 
 }
 .link-secondary {
@@ -56,17 +62,20 @@ a.link.link-primary.pl {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     /* padding-left: 1rem; */
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
 
 
 p {
     /* padding: 1rem 1rem 1rem 1rem; */
+    
+    /* padding: 1rem 1rem 1rem 1rem; */
     padding-top: 1rem;
     padding-bottom: 2rem;
-    width: 70%;
+    width: auto;
     margin: auto;
-    font-size:medium;
+    font-size: larger;
+    line-height: 24px;
 }
 
 
